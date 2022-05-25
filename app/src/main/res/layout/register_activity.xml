@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:background="@drawable/new_login"
+    android:gravity="center_horizontal"
+    tools:context="com.example.feed.RegisterActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="SmtS"
+        android:textSize="100dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:text="Ready to Serve People"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/background1"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Email"
+
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColorHint="#fff" />
+
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background1"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColorHint="#fff" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#f9d7db"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/background1"
+        android:text="Register"
+
+        android:textColor="#010203" />
+
+</LinearLayout>
